@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="Hello Android !"
         android:textSize="50dp"
-        android:id="@+id/textView" />
+        android:id="@+id/tv" />
 
     <Button
         android:layout_width="wrap_content"
@@ -22,6 +22,7 @@
         android:text="Go Go Go"
         android:id="@+id/button"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="changeText" />
 
 </RelativeLayout>
