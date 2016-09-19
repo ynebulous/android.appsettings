@@ -1,10 +1,10 @@
 
-langauge : android
+langauge: android
 
-jdk : oraclejdk8
+jdk: oraclejdk8
 
 android:
-  components :
+  components:
   - platform-tools
   - tools
   - build-tools-24.0.0
@@ -12,6 +12,6 @@ android:
   - extra-android-m2repository
  
 before_install:
-  -chmod +x gradlew
+  - chmod +x gradlew
   
-script:./gradlew build
+script: ./gradlew build
